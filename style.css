@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif; 
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    background-image: radial-gradient(circle at 100% 150%, #3bc19b 24%, #42D2BB 25%, #42D2BB 28%, #3BC1AC 29%, #3BC1AC 36%, #42D2BB 36%, #42D2BB 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0 150%, #3BC1AC 24%, #42D2BB 25%, #42D2BB 28%, #3BC1AC 29%, #3BC1AC 36%, #42D2BB 36%, #42D2BB 40%, transparent 40%, transparent)
+    background-size: 100px 50px;  
+}
+
+.voiceinator {
+    width:60rem;
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow 0 0 5px 5px rgba(0,0,0,0.1);
+    background: yellow;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+h1 {
+    width: calc(100%+4rem);
+    margin: -2rem 0 2rem;
+    padding: .5rem;
+    background: #60c090;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    height: 20rem;
+}
